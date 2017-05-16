@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Test Page</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <h3>This is a test page.</h3>
+  <p>I just want to see how easy it is to add new pages.</p>
+  <p>It seems pretty simple.</p>
+  <p>
+    <button ion-button color="primary" menuToggle>Toggle Menu</button>
+  </p>
+  <!-- This is just testing the alert feature -->
+  <p>
+    <button ion-button color="primary" (click)="showAlert()">Alert</button>
+  </p>
+  <!-- Slides test -->
+  <ion-slides pager>
+    <ion-slide style="background-color: green">
+      <h2>Slide 1</h2>
+    </ion-slide>
+    <ion-slide style="background-color: green">
+      <h2>Slide 2</h2>
+    </ion-slide>
+    <ion-slide style="background-color: green">
+      <h2>Slide 3</h2>
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>
