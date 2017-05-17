@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle *ngIf="!selectedItem">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Workout Details</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <h3 text-center *ngIf="selectedItem">
+    {{selectedItem.title}}
+    <ion-icon [name]="selectedItem.icon"></ion-icon>
+  </h3>
+  <!-- <h4 text-center *ngIf="selectedItem">
+    You navigated here from <b>{{selectedItem.title}}</b>
+  </h4> -->
+
+  <!-- Workout video -->
+  <ion-card>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="http://placehold.it/350x150">
+      </ion-avatar>
+      <h2>{{selectedItem.title}}</h2>
+      <p>{{selectedItem.note}}</p>
+    </ion-item>
+    <img src="http://placehold.it/350x150">
+    <ion-card-content>
+      <p>Description of video</p>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Workout equipment -->
+  <ion-card>
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="http://placehold.it/350x150">
+      </ion-avatar>
+      <h2>{{selectedItem.title}}</h2>
+      <p>{{selectedItem.note}}</p>
+    </ion-item>
+    <img src="http://placehold.it/350x150">
+    <ion-card-content>
+      <p>List of workout equipment</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
