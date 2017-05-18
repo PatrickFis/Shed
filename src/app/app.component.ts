@@ -3,13 +3,14 @@ import { Component, ViewChild } from '@angular/core';
 import { Platform, MenuController, Nav } from 'ionic-angular';
 
 // import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
-import { ListPage } from '../pages/list/list';
+// import { ListPage } from '../pages/list/list';
 // import { TestPage } from '../pages/test-page/test-page';
 import { LoginPage } from '../pages/login-page/login-page';
 import { MainPage } from '../pages/main-page/main-page';
 import { AboutPage } from '../pages/about-page/about-page';
 // import { WorkoutsPage } from '../pages/workouts-page/workouts-page';
 import { Workouts } from '../pages/workouts-list/workouts';
+import { BuyWorkouts } from '../pages/buy-workouts/buy-workouts';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -42,6 +43,7 @@ export class MyApp {
       { title: 'Main Page', component: MainPage },
       { title: 'About', component: AboutPage },
       // { title: 'Workouts', component: WorkoutsPage },
+      { title: 'Buy Workouts', component: BuyWorkouts },
       { title: 'Workouts', component: Workouts }
     ];
   }
