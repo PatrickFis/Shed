@@ -8,4 +8,10 @@ export class LoginPage {
   constructor() {
 
   }
+
+  logo = [
+    {
+      image: "assets/img/logo.png",
+    }
+  ];
 }

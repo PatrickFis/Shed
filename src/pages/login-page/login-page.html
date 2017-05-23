@@ -10,12 +10,10 @@
 
 <ion-content class="card-background-page" padding>
 
-  <h3>Login Page - Logo goes here</h3>
+  <h3>Login Page</h3>
   <!-- CSS for this is in login-page.scss. -->
-  <ion-card>
-    <img src="../assets/img/logo.png"/>
-    <!-- <div class="card-title">SHED</div>
-    <div class="card-subtitle">O.T.G</div> -->
+  <ion-card *ngFor="let logos of logo">
+    <img [src]="logos.image"/>
   </ion-card>
   <ion-list>
 
