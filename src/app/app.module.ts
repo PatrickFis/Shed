@@ -22,7 +22,7 @@ import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 
 const cloudSettings: CloudSettings = {
   'core': {
-    'app_id': '9cc2a4ff'
+    'app_id': '6fed8bd7'
   }
 };
 

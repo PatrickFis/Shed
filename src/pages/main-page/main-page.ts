@@ -27,7 +27,7 @@ export class MainPage {
     {
       title: "Brittany Farrar",
       description: "Trainer",
-      image: "assets/img/Brittancy.jpg",
+      image: "assets/img/Brittany.jpg",
     },
     {
       title: "Theresa Fischer",
@@ -42,7 +42,7 @@ export class MainPage {
     {
       title: "Derrick Brown",
       description: "Trainer",
-      image: "assets/img/Derrick.jpg",
+      image: "assets/img/Derrick.jpeg",
     },
     {
       title: "Rachael Rodgers",
@@ -52,7 +52,7 @@ export class MainPage {
     {
       title: "Megan Stauffer",
       description: "Staff",
-      image: "assets/img/Megan.jpg",
+      image: "assets/img/Megan.jpeg",
     },
     {
       title: "Jeff Wade",
