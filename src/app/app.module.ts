@@ -9,7 +9,7 @@ import { MyApp } from './app.component';
 // import { TestPage } from '../pages/test-page/test-page';
 import { LoginPage } from '../pages/login-page/login-page';
 import { MainPage } from '../pages/main-page/main-page';
-import { AboutPage } from '../pages/about-page/about-page';
+import { AboutPage, AboutModal } from '../pages/about-page/about-page';
 // import { WorkoutsPage } from '../pages/workouts-page/workouts-page';
 import { WorkoutDetailsPage } from '../pages/workout-details/workout-details';
 import { Workouts } from '../pages/workouts-list/workouts';
@@ -39,7 +39,8 @@ const cloudSettings: CloudSettings = {
     // WorkoutsPage,
     WorkoutDetailsPage,
     Workouts,
-    BuyWorkouts
+    BuyWorkouts,
+    AboutModal
   ],
   imports: [
     BrowserModule,
@@ -59,7 +60,8 @@ const cloudSettings: CloudSettings = {
     // WorkoutsPage,
     WorkoutDetailsPage,
     Workouts,
-    BuyWorkouts
+    BuyWorkouts,
+    AboutModal
   ],
   providers: [
     StatusBar,
