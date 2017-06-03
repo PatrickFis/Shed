@@ -1,1 +1,1 @@
-Shed Mobile Application.
+Shed Mobile Application using Ionic.
