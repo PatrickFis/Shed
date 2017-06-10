@@ -11,7 +11,7 @@ export class LoginPage {
 
   logo = [
     {
-      image: "assets/img/logo.png",
+      image: "assets/img/shed-logo.png",
     }
   ];
 }
